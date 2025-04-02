@@ -24,7 +24,7 @@ test.for(["yo", "woah", "justin", "snow"])("Testing hour heading in our webpage"
 
 
     //Assert
-    expect(header).toHaveTextContent("justin");
+    expect(header).toHaveTextContent(word);
 
     
 })
